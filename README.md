@@ -33,7 +33,7 @@ HomeViewController.swift 의 하단에 의존성을 주입하여 객체를 생�
 ```
 
 템플릿을 통해서는 기본적인 의존성만 주입이 됩니다.
-아래처럼 Interactor, presenter, ViewController의 init함수에 더 필요한 의존성을 직접 추가하면 됩니다.
+아래처럼 Interactor, Presenter, ViewController의 init함수에 더 필요한 의존성을 직접 추가하면 됩니다.
 
 ```swift
   class LyricsInteractor {
