@@ -8,7 +8,7 @@ iOS
 UIKit   
 
 ### Getting Started
-1. shell script가 있는 폴더에서 `install-xcode.template.sh`를 실행하면 Xcode에 템플릿이 설치가 됩니다.
+1. shell script가 있는 폴더에서 `install-xcode-template.sh`를 실행하면 Xcode에 템플릿이 설치가 됩니다.
 1. Xcode에서 `New File...` 을 선택합니다.
 2. iOS 탭에서 하단으로 스크롤해서 Custom Templates을 찾아갑니다.
 3. Clean Architecture template을 선택합니다.
