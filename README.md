@@ -1,11 +1,11 @@
-# XcodeTemplatesForCleanArchitecture
+# Xcode Templates For Clean Architecture
 Clean Architecture를 적용하면 항상 추가해야하는 보일러플레이트 코드가 있습니다.   
 오류없이 자동으로 추가할 수 있도록 템플릿을 만들었습니다.    
 이 구현코드가 완전하다고 할 수 는 없으며, 단지 제가 겪었던 여러 상황에 대한 고려를 하면서 개선해온 구조입니다.
 
 ### Requirements
-iOS   
-UIKit   
+- iOS   
+- UIKit   
 
 ### Getting Started
 1. shell script와 템플릿 폴더가 있는 폴더에서 `install-xcode-template.sh`를 실행하면 Xcode에 템플릿이 설치가 됩니다.
