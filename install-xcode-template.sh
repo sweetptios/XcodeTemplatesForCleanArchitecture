@@ -19,4 +19,4 @@ xcodeTemplate () {
 xcodeTemplate
 
 echo "==> ... success!"
-echo "==> The file Templates have been set up. In Xcode, select 'New File...' to use the Clean Architecture template."
+echo "==> The file templates have been set up. In Xcode, select 'New File...' to use the Clean Architecture template."
