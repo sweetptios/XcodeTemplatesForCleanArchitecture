@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Configuration
-XCODE_TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/Custom Templates'
+XCODE_TEMPLATE_DIR=$HOME'/Library/Developer/Xcode/Templates/Clean Architecture'
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Copy the file templates into the local template directory
