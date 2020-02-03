@@ -37,8 +37,8 @@ HomeViewController.swift 의 하단에 의존성을 주입하여 객체를 생�
 
 ```swift
   class LyricsInteractor {
-      private weak var outputBoundary: LyricsOutputBoundary!
-      private var lyrics: Lyrics
+      private let outputBoundary: LyricsOutputBoundary!
+      private let lyrics: Lyrics
 
       required init(outputBoundary: LyricsOutputBoundary, lyrics: Lyrics) {
           self.outputBoundary = outputBoundary

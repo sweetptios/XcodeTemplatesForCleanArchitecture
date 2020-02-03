@@ -13,7 +13,7 @@ protocol ___VARIABLE_productName___OutputBoundary: class {
 
 class ___VARIABLE_productName___Interactor {
     
-    private var outputBoundary: ___VARIABLE_productName___OutputBoundary!
+    private let outputBoundary: ___VARIABLE_productName___OutputBoundary!
     
     required init(outputBoundary: ___VARIABLE_productName___OutputBoundary) {
         self.outputBoundary = outputBoundary

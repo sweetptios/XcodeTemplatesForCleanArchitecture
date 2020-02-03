@@ -4,7 +4,7 @@ import UIKit
 
 class ___VARIABLE_productName___ViewController: UIViewController {
     
-    private var inputBoundary: ___VARIABLE_productName___InputBoundary
+    private let inputBoundary: ___VARIABLE_productName___InputBoundary
     
     init(inputBoundary: ___VARIABLE_productName___InputBoundary) {
         self.inputBoundary = inputBoundary
