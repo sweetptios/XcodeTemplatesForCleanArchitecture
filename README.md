@@ -15,6 +15,8 @@ Clean Architecture를 적용하면 항상 추가해야하는 보일러플레이�
 4. 생성되는 파일들의 Prefix 이름을 입력하고 파일들을 생성합니다.
 
 ### Documentations
+
+## UI
 3개의 파일이 생성됩니다. Prefix를 "Home"으로 입력했다면 다음과 같습니다.
    
 HomeInteractor.swift   
