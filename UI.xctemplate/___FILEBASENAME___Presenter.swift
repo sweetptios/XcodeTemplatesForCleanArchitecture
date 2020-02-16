@@ -2,7 +2,7 @@
 
 import Foundation
 
-//MARK: - ___VARIABLE_productName___View
+//MARK: - ___VARIABLE_productName___ViewControllable
 
 protocol ___VARIABLE_productName___ViewControllable: class {
     
