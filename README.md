@@ -9,18 +9,9 @@ Clean Architecture를 적용하면 항상 추가해야하는 보일러플레이�
 
 ## Getting Started
 1. shell script와 템플릿 폴더가 있는 폴더에서 `install-xcode-template.sh`를 실행하면 Xcode에 템플릿이 설치가 됩니다.
-      
-      ```swift
-        /* 객체 생성
-          let presenter = HomePresenter()
-          let interactor = HomeInteractor(outputBoundary: presenter)
-          let viewController = HomeViewController(inputBoundary: interactor)
-          presenter.setView(viewController)
-       */
-      ```
-    
-    ```
-
+```
+   > sudo sh install-xcode-template.sh
+```
 1. Xcode에서 `New File...` 을 선택합니다.
 2. iOS 탭에서 하단으로 스크롤해서 `Clean Architecture`를 찾아갑니다.
 3. `UI` 템플릿을 선택합니다.
