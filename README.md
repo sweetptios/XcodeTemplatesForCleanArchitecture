@@ -41,13 +41,13 @@ HomeViewController.swift 의 하단에 의존성을 주입하여 객체를 생�
 아래처럼 Interactor, Presenter, ViewController의 init함수에 더 필요한 의존성을 직접 추가하면 됩니다.
 
 ```swift
-  class LyricsInteractor {
-      private let outputBoundary: LyricsOutputBoundary!
-      private let lyrics: Lyrics
+  class ProductInteractor {
+      private let outputBoundary: ProductOutputBoundary
+      private let productRepository: ProductRepositoryAvailable
 
-      required init(outputBoundary: LyricsOutputBoundary, lyrics: Lyrics) {
+      required init(outputBoundary: ProductOutputBoundary, productRepository: ProductRepositoryAvailable) {
           self.outputBoundary = outputBoundary
-          self.lyrics = lyrics
+          self.productRepository = productRepository
       }
   }
 ```
