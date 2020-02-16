@@ -2,6 +2,8 @@
 
 import UIKit
 
+//MARK: - ___VARIABLE_productName___ViewController
+
 class ___VARIABLE_productName___ViewController: UIViewController {
     
     private let inputBoundary: ___VARIABLE_productName___InputBoundary
@@ -15,6 +17,8 @@ class ___VARIABLE_productName___ViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+//MARK: - ___VARIABLE_productName___ViewControllable
 
 extension ___VARIABLE_productName___ViewController: ___VARIABLE_productName___ViewControllable {
     
